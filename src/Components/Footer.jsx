@@ -10,7 +10,9 @@ const Footer = () => {
     <div className='footer_container'>
         <Container sx={{
             height:'332px',
-            display:'flex'
+            display:'flex',
+            alignItems:'flex-start',
+            paddingTop:'70px'
         }}>
             <Grid container sx={{
                 display:'flex',
@@ -77,7 +79,7 @@ const Footer = () => {
             <Container container sx={{
                 flex:3,
                 display:'flex',
-                alignItems:'center',
+                alignItems:'flex-start',
                 width:'825.25px'
             }}>
                 <Box sx={{
@@ -114,11 +116,11 @@ const Footer = () => {
                         lineHeight:'36.4px',
                         fontFamily:'Inter',
                         fontWeight:'600'
-                    }}>Company</Typography>
-                    <Typography variant='h8'>About us</Typography>
-                    <Typography variant='h8'>Blog</Typography>
-                    <Typography variant='h8'>Contact us</Typography>
-                    <Typography variant='h8'>Testimonials</Typography>
+                    }}>Support</Typography>
+                    <Typography variant='h8'>Help Center</Typography>
+                    <Typography variant='h8'>Terms of Service</Typography>
+                    <Typography variant='h8'>Legal</Typography>
+                    <Typography variant='h8'>Privary policy</Typography>
                 </Box>
 
 
@@ -127,7 +129,7 @@ const Footer = () => {
                     display:'flex',
                     flexDirection:'column',
                     justifyContent:'flex-start',
-                    border:'1px solid red',
+                    // border:'1px solid red',
                     gap:'10px',
                     color:'white'
                 }}>
@@ -143,13 +145,13 @@ const Footer = () => {
                     }}>
 
                         <input placeholder='Your email address' type='email' style={{
-                            background:'rgba(255, 255, 255, 1)',
+                            background:'rgba(217, 219, 225, 0.5)',
                             width:'331.52px',
                             height:'52px',
                             padding:'15px',
                             borderRadius:'10.4px',
-                            opacity:'20%',
-                            color:'rgba(217, 219, 225, 1)',
+                            // opacity:1,
+                            color:'white',
                             fontSize:'18.2px'
                         }}/>
 

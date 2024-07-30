@@ -1,11 +1,27 @@
 .footer_container{
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(38, 50, 56, 1);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  margin-top: auto;
 }
 
 ::placeholder {
-  color: rgba(217, 219, 225, 1);
-  opacity: 2;
+  color:white;
+  opacity: 1;
 }
+:-ms-input-placeholder {
+  color: red; /* Internet Explorer 10-11 */
+}
+::-ms-input-placeholder {
+  color: orange; /* Microsoft Edge */
+}
+:-moz-placeholder {
+  color: green; /* Firefox 4 to 18 */
+  opacity: 1;
+}
+::-moz-placeholder {
+  color: purple; /* Firefox 19+ */
+  opacity: 1;
+}
+
